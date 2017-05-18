@@ -6,18 +6,21 @@ import webbrowser
 #class
 class Movie():
 #function to "init"iate  the class    
-    def __init__(self, movie_title, 
-                movie_story, movie_poster, 
-                trailer_youtube):
+    def __init__(self, title, 
+                movie_story, poster_image_url , 
+                trailer_youtube_url):
 
-        self.title = movie_title
-        self.story = movie_story
-        self.poster = movie_poster
-        self.trailer = trailer_youtube
+        self.title = title
+        self.movie_story = movie_story
+        self.poster_image_url = poster_image_url 
+        self.trailer_youtube_url = trailer_youtube_url
 
 #fuction to call YouTube trailer 
-    def show_trailer():
-        webbrowser.open(self.trailer_youtube)
+    def show_trailer(self):
+        webbrowser.open(self.trailer_youtube_url)
+
+
+
 
 """=====
 test to see if code is working
