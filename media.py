@@ -22,18 +22,4 @@ class Movie():
 
 
 
-"""=====
-test to see if code is working
-
-Declare the object 
-movie = Movie("Toy Story",
-                "",'',
-              'https://www.youtube.com/watch?v=lKV_-ABu39M')
-
-Call the object
-webbrowser.open(movie.trailer)
-
-=======
-"""
-
           

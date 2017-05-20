@@ -74,10 +74,3 @@ list_movies = [
 fresh_tomatoes.open_movies_page(list_movies)
 
 
-
-# __init_ gets called
-    # self = toy_story
-    #movie_title = "Toy Story"
-    #movie_storyline = "come to life"
-    #poster_image = "Poster Link"
-    #trailer_youtube_url = "link"
