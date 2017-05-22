@@ -31,30 +31,25 @@ akira = media.Movie(
     "Akira",
     "Shotaro Kaneda, a leader of a local biker gang who must stop his friend Tetsuo Shima from using his newly awakened superpowers to release the titular esper",
     "http://t3.gstatic.com/images?q=tbn:ANd9GcS6hoa1ePkqSULxJOKdO3O1PriRxrl5bOYT5owZJsh7FDwCPDrW",
-    "https://www.youtube.com/watch?v=7mdMtuGL7eg"
-)
+    "https://www.youtube.com/watch?v=7mdMtuGL7eg")
 
 paprika = media.Movie(
     "Paprika",
     'Dr. Atsuko Chiba works as a scientist by day and, under the code name "Paprika" is a dream detective at night',
     "http://img.moviepostershop.com/paprika-movie-poster-2006-1020689313.jpg",
-    "https://www.youtube.com/watch?v=1wOrvd_ylDY"
-)
+    "https://www.youtube.com/watch?v=1wOrvd_ylDY")
 
 high_low = media.Movie(
     "High and Low",
     "Toshiro Mifune stars as a wealthy industrialist whose family becomes the target of a ruthless kidnapper",
     "http://www.impawards.com/1963/posters/high_and_low.jpg",
-    "https://www.youtube.com/watch?v=LV3z2Ytxu90"
-)
+    "https://www.youtube.com/watch?v=LV3z2Ytxu90")
 
 up = media.Movie(
     "UP",
     "A 78-year-old balloon salesman, is about to fulfill a lifelong dream",
     "http://static.rogerebert.com/uploads/movie/movie_poster/up-2009/large_zh9DXJhBdHVVaWiDURTipADamcK.jpg",
-    "https://www.youtube.com/watch?v=BDCSncUZxvs&disable_polymer=true"
-
-)
+    "https://www.youtube.com/watch?v=BDCSncUZxvs&disable_polymer=true")
 
 list_movies = [
     seven_samurai,
