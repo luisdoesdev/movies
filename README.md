@@ -40,4 +40,4 @@ You will add this array"list" in fresh_tomatoes.open_movies_page funtion wich wi
 
 
 ## Running
-to run the program: type "python fresh_tomatoes.py" in terminal
+to run the program: type "python entertainment_center.py" in terminal
