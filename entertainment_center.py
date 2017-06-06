@@ -53,6 +53,8 @@ up = media.Movie(
     "http://static.rogerebert.com/uploads/movie/movie_poster/up-2009/large_zh9DXJhBdHVVaWiDURTipADamcK.jpg",  # noqa
     "https://www.youtube.com/watch?v=BDCSncUZxvs&disable_polymer=true", "98")
 
+
+# This array holds all the movie objects
 list_movies = [
     seven_samurai,
     sanjuro,
@@ -64,5 +66,5 @@ list_movies = [
     up
 ]
 
-# call Media
+# call Media and the list of movies from the object
 fresh_tomatoes.open_movies_page(list_movies)
