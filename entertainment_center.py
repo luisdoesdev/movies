@@ -15,7 +15,7 @@ casablanca = media.Movie("Casablanca", "Rick Blaine who owns a nightclub in \
     Casablanca, discovers his old flame Ilsa is in town with her husband, \
     Victor Laszlo. Laszlo is a famed rebel, and with Germans on his tail,\
     Ilsa knows Rick can help them get out of the country.",
-    "http://resizing.flixster.com/qwlwwAU7mmOZFuZfyJe6pJV5CAE=/800x1200/v1.bTsxMTE2ODEwMTtqOzE3NDEwOzIwNDg7ODAwOzEyMDA",  # noqa
+    "https://m.media-amazon.com/images/M/MV5BY2IzZGY2YmEtYzljNS00NTM5LTgwMzUtMzM1NjQ4NGI0OTk0XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_UX182_CR0,0,182,268_AL_.jpg",  # noqa
     "https://www.youtube.com/watch?v=PD9HDwMcfRE&disable_polymer=true", "97")
 
 toy_story = media.Movie(
