@@ -6,11 +6,11 @@ import webbrowser
 # class
 class Movie():
     """ function to "init"iate  the class """
-    def __init__(self, title, movie_story, poster_image_url,
+    def __init__(self, title, movie_desc, poster_image_url,
                  trailer_youtube_url, movie_rating):
 
             self.title = title
-            self.movie_story = movie_story
+            self.movie_desc = movie_desc
             self.poster_image_url = poster_image_url
             self.trailer_youtube_url = trailer_youtube_url
             self.movie_rating = movie_rating

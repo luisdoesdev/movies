@@ -44,7 +44,7 @@ high_low = media.Movie(
     "High and Low",
     "Toshiro Mifune stars as a wealthy industrialist whose family becomes\
      the target of a ruthless kidnapper",
-    "http://www.impawards.com/1963/posters/high_and_low.jpg",
+    "https://upload.wikimedia.org/wikipedia/en/6/6a/HIGH_AND_LOW_JP_.jpg",
     "https://www.youtube.com/watch?v=LV3z2Ytxu90", "94")
 
 up = media.Movie(

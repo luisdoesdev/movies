@@ -12,8 +12,7 @@ main_page_head = '''
     <title>Luis Favorite Movies!</title>
 
     <!-- Bootstrap 3 -->
-    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
     <style type="text/css" media="screen">
@@ -118,7 +117,9 @@ main_page_content = '''
       </div>
     </div>
     <div class="container">
+      <div class='row'>
       {movie_tiles}
+      </div>
     </div>
   </body>
 </html>
@@ -127,14 +128,15 @@ main_page_content = '''
 
 # A single movie entry html template
 movie_tile_content = '''
-<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
-    <img src="{poster_image_url}" width="220" height="342">
+<div  class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
+    <img style='display:block; margin:auto;' src="{poster_image_url}" width="220" height="342">
     <h2>{movie_title}</h2>
-    <p>{movie_story}</p>
-    <h5>Tomato Rating:</h5>
-    <h3> {movie_rating}  %<h3>
+    <h5><img src="https://img.icons8.com/emoji/48/000000/tomato.png" height='25px'> {movie_rating} %</h5>
+    <p>{movie_desc}</p>
 </div>
 '''
+
+
 
 
 def create_movie_tiles_content(movies):
@@ -152,7 +154,7 @@ def create_movie_tiles_content(movies):
         # Append the tile for the movie with its content filled in
         content += movie_tile_content.format(
             movie_title=movie.title,
-            movie_story = movie.movie_story,
+            movie_desc = movie.movie_desc,
             poster_image_url = movie.poster_image_url,
             trailer_youtube_id = trailer_youtube_id,
             movie_rating = movie.movie_rating
