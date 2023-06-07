@@ -1,6 +1,5 @@
-
-
 ## Side Projects
+
 Computer Science Side Projects
 
 These projects are suited for engineers trying to beef up their computer science fundamentals. They’ll help you learn more about specific aspects of computing, like file transfer and operating systems design. These projects can be particularly useful for self-taught developers who’ve focused more on practical skills than comp sci fundamentals.
@@ -117,4 +116,3 @@ These projects will improve your ability to work with data. Software engineers w
     Create and automatically update a data set (suggested implementation: web scraper input to CSV output). Build a tool to automatically build and update a data set about something you’re interested in. Suggested data sets: stats about your favorite sports team, flights to destinations you want to visit, meteorological data from where you live, or anything else that interests you. The most important thing is that the data set should require constant updates as new data is generated — and should occur automatically. For example, as soon as your sport’s team’s results are posted on a website, the data should be automatically scraped and added to your data set.
 
     Enter a data science competition (suggested implementation: R or Python). Kaggle hosts a number of data science competitions featuring real-world data sets and hefty cash prizes. You’ll also often be tasked with solving real-world problems like: how to classify toxic online comments, forecast restaurant visitors, or recognize objects from space.
-
