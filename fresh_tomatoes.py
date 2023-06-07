@@ -18,7 +18,7 @@ main_page_head = '''
     <style type="text/css" media="screen">
     <!--Font AWESOME-->
    <link 
-  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
+  href="img/close-button.svg" 
   rel="stylesheet"  type='text/css'>
 
         body {
@@ -131,7 +131,7 @@ movie_tile_content = '''
 <div  class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
     <img style='display:block; margin:auto;' src="{poster_image_url}" width="220" height="342">
     <h2>{movie_title}</h2>
-    <h5><img src="https://img.icons8.com/emoji/48/000000/tomato.png" height='25px'> {movie_rating} %</h5>
+    <h5><img src="img/tomato-svgrepo-com.svg " height='25px'> {movie_rating} %</h5>
     <p>{movie_desc}</p>
 </div>
 '''
